@@ -1,0 +1,30 @@
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.pytest_cache/
+
+# Environment variables
+.env
+.env.*
+
+# Allow example environment file
+!.env.example
+
+# ChromaDB
+chroma_db/
+*.sqlite3
+
+# Frontend
+node_modules/
+dist/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
